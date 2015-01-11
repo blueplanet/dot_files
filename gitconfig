@@ -1,0 +1,29 @@
+[user]
+	name = blueplanet
+	email = erguolinge@gmail.com
+
+[alias]
+	co = checkout
+	com = checkout master
+	br = branch
+	ci = commit
+	st = status
+	ffs = flow feature start
+	fff = flow feature finish
+[color]
+	branch = auto 
+	diff = auto 
+	status = auto
+[core]
+	excludesfile = /Users/gyo/.gitignore
+	editor = /usr/bin/vim
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
