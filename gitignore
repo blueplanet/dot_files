@@ -1,2 +1,6 @@
 .idea/
+.bundle/
 .DS_Store
+.envrc
+.rake_tasks
+.vagrant

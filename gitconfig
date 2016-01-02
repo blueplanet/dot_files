@@ -11,8 +11,8 @@
 	ffs = flow feature start
 	fff = flow feature finish
 [color]
-	branch = auto 
-	diff = auto 
+	branch = auto
+	diff = auto
 	status = auto
 [core]
 	excludesfile = /Users/gyo/.gitignore
@@ -24,7 +24,14 @@
 	smudge = git media smudge %f
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+
+[init]
+  templatedir = ~/.git_template
