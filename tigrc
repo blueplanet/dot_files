@@ -1,0 +1,5 @@
+# メインビューの表示設定
+set main-view = id:yes date author:full commit-title:graph=yes,refs=yes
+
+# ステータスビューで V 押下すると、差分表示モードでコミットログ入力画面を開く
+bind status C !git commit -v
