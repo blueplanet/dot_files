@@ -15,7 +15,7 @@
 	diff = auto
 	status = auto
 [core]
-	excludesfile = /Users/gyo/.gitignore
+	excludesfile = /Users/blueplanet/.gitignore
 	editor = /usr/bin/vim
 	autocrlf = input
 [filter "media"]
@@ -35,3 +35,7 @@
 
 [init]
   templatedir = ~/.git_template
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
