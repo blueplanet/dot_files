@@ -11,8 +11,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'tpope/vim-rails'
 
 " color scheme
-NeoBundle '29decibel/codeschool-vim-theme'
-NeoBundle 'croaker/mustang-vim'
+NeoBundle 'w0ng/vim-hybrid'
 
 call neobundle#end()
 
@@ -20,17 +19,16 @@ filetype plugin indent on
 
 NeoBundleCheck
 
-colorscheme 'mustang-vim'
+set background=dark
+colorscheme hybrid
 
 syntax enable
 set number
 
 
 
-color codeschool
-
 set guifont=Ricty:h16
-set transparency=255
+" set transparency=255
 
 let g:NERDTreeWinPos = "right"
 set guioptions-=T " Removes top toolbar

@@ -3,19 +3,23 @@
 	email = erguolinge@gmail.com
 
 [alias]
+	b = branch
 	co = checkout
 	com = checkout master
-	br = branch
 	ci = commit
 	st = status
-	ffs = flow feature start
-	fff = flow feature finish
+	p = push
+	po = push origin
+	pom = push origin master
+	pl = pull
+	plo = pull origin
+	plom = pull origin master
 [color]
 	branch = auto
 	diff = auto
 	status = auto
 [core]
-	excludesfile = /Users/blueplanet/.gitignore
+	excludesfile = /Users/gyo/.gitignore
 	editor = /usr/bin/vim
 	autocrlf = input
 [filter "media"]
