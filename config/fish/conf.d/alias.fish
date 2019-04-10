@@ -31,7 +31,7 @@ alias t 'tig'
 alias ts 't status'
 
 # editor
-alias e 'atom'
+alias e 'code'
 
 alias o 'open'
 
