@@ -1,0 +1,36 @@
+{
+    "editor.tabSize": 2,
+    "workbench.activityBar.visible": false,
+
+    "window.zoomLevel": 1,
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+    // [開いているエディター] ウィンドウに表示されているエディターの数。0 に設定するとウィンドウが非表示になります。
+    "explorer.openEditors.visible": 0,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.showTabs": true,
+    "editor.formatOnPaste": true,
+    // "editor.formatOnSave": true,
+    // "editor.formatOnSaveTimeout": 750,
+    // "editor.formatOnType": true,
+    "editor.renderControlCharacters": true,
+
+    // プレビューを禁止すれば、tab が上書きされない
+    "workbench.editor.enablePreview": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.insertFinalNewline": true,
+    "editor.renderWhitespace": "boundary",
+    "workbench.statusBar.visible": true,
+    "workbench.colorTheme": "One Dark Pro Bold",
+    "materialTheme.fixIconsRunning": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "todo.statistics.project.text": "([finished]/[all]) [percentage]%",
+    "solidity.linter": "solium",
+    "solidity.soliumRules": {
+        "quotes": ["error", "double"],
+        "indentation": ["error", 2]
+    },
+    "files.useExperimentalFileWatcher": true,
+    "editor.fontFamily": "Source Han Code JP, Menlo, Monaco, 'Courier New', monospace",
+    "markdown-preview-enhanced.mermaidTheme": "forest",
+    "workbench.list.keyboardNavigation": "simple",
+}
