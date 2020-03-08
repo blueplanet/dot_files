@@ -1,12 +1,12 @@
 # base command
-alias ls 'ls -GwF'
+alias ls 'exa -GwF'
 alias ll 'ls -l'
 alias la 'll -a'
 
 # git
 alias g 'git'
 alias ga "g add"
-alias gbr 'g branch'
+alias gb 'g branch'
 alias gc 'g commit -v'
 alias gca 'gc --amend'
 alias gp 'g push'
@@ -43,7 +43,6 @@ alias r rails
 alias ra rake
 
 # tmux
-alias tmux 'direnv exec / tmux'
 alias tm 'tmux'
 alias tma 'tmux attach -t'
 alias tml 'tmux list-window'
@@ -56,7 +55,6 @@ alias hk 'heroku'
 # github
 alias hb 'hub browse'
 alias hpr 'hub pull-request --browse'
-alias pr 'pivotal_tracker_pr create'
 
 alias mc 'm'
 alias m 'tmuxinator'
