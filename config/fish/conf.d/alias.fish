@@ -1,5 +1,5 @@
 # base command
-alias ls 'exa -GwF'
+alias ls 'exa'
 alias ll 'ls -l'
 alias la 'll -a'
 
