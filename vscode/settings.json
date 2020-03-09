@@ -2,7 +2,7 @@
     "editor.tabSize": 2,
     "workbench.activityBar.visible": false,
 
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 3,
     "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
     // [開いているエディター] ウィンドウに表示されているエディターの数。0 に設定するとウィンドウが非表示になります。
     "explorer.openEditors.visible": 0,
@@ -20,17 +20,8 @@
     "files.insertFinalNewline": true,
     "editor.renderWhitespace": "boundary",
     "workbench.statusBar.visible": true,
-    "workbench.colorTheme": "One Dark Pro Bold",
-    "materialTheme.fixIconsRunning": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "todo.statistics.project.text": "([finished]/[all]) [percentage]%",
-    "solidity.linter": "solium",
-    "solidity.soliumRules": {
-        "quotes": ["error", "double"],
-        "indentation": ["error", 2]
-    },
-    "files.useExperimentalFileWatcher": true,
-    "editor.fontFamily": "Source Han Code JP, Menlo, Monaco, 'Courier New', monospace",
-    "markdown-preview-enhanced.mermaidTheme": "forest",
+    "editor.fontFamily": "Ricty Diminished, Source Han Code JP, Menlo, Monaco, 'Courier New', monospace",
     "workbench.list.keyboardNavigation": "simple",
+    "workbench.colorTheme": "Solarized Light",
 }
