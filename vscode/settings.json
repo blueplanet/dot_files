@@ -2,7 +2,7 @@
     "editor.tabSize": 2,
     "workbench.activityBar.visible": false,
 
-    "window.zoomLevel": 3,
+    "window.zoomLevel": 4,
     "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
     // [開いているエディター] ウィンドウに表示されているエディターの数。0 に設定するとウィンドウが非表示になります。
     "explorer.openEditors.visible": 0,
@@ -24,4 +24,5 @@
     "editor.fontFamily": "Ricty Diminished, Source Han Code JP, Menlo, Monaco, 'Courier New', monospace",
     "workbench.list.keyboardNavigation": "simple",
     "workbench.colorTheme": "Solarized Light",
+    "files.trimTrailingWhitespace": true,
 }

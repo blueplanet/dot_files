@@ -1,0 +1,28 @@
+# 不用在提示符前换行
+add_newline = false
+
+# 使用自定义的组件顺序替换默认组件顺序
+prompt_order=["hostname","ruby","nodejs","git_branch","git_status","cmd_duration","line_break","directory","character"]
+
+# 当 starship 扫描当前目录下的文件和文件夹时，最多使用 10 毫秒
+scan_timeout = 10
+
+
+[cmd_duration]
+min_time = 500
+prefix = "executed times "
+
+[directory]
+truncation_length = 3
+
+[git_branch]
+symbol = ""
+truncation_length = 100
+truncation_symbol = "..."
+
+[hostname]
+ssh_only = true
+prefix = "⟪"
+suffix = "⟫"
+disabled = false
+
