@@ -16,7 +16,7 @@ prefix = "executed times "
 truncation_length = 3
 
 [git_branch]
-symbol = ""
+symbol = "🌱 "
 truncation_length = 100
 truncation_symbol = "..."
 

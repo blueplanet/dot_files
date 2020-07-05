@@ -1,7 +1,5 @@
-.idea/
-.vscode/
-.bundle/
+.bundle
+.cache
 .DS_Store
-.envrc
-.rake_tasks
-.vagrant
+.sass-cache
+build/

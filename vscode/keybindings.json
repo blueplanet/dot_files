@@ -124,5 +124,14 @@
         "key": "alt+s",
         "command": "-todo.toggleStart",
         "when": "editorTextFocus && editorLangId == 'todo'"
-    }
+    },
+    {
+        "key": "cmd+shift+.",
+        "command": "erb.toggleTags",
+        "when": "editorTextFocus && editorLangId == erb"
+    },
+    {
+        "key": "ctrl+r f",
+        "command": "extension.runFileSpecs"
+    },
 ]
