@@ -10,15 +10,16 @@ ln -s ~/work/dot_files/vimrc .vimrc
 mkdir -p ~/.config
 cd ~/.config
 
-ln -s ~/work/dotfiles/config/starship.toml starship.toml
+ln -s ~/work/dot_files/config/starship.toml starship.toml
 
 # fish
-ln -s ~/work/dotfiles/config/fish/config.fish config.fish
+cd ~/.config/fish
+ln -s ~/work/dot_files/config/fish/config.fish config.fish
 
-mkdir -p ~/.config/fish/conf.d/
-cd ~/.config/fish/conf.d/
+mkdir conf.d
+cd conf.d
 
-ln -s ~/work/dotfiles/config/fish/conf.d/alias.fish alias.fish
+ln -s ~/work/dot_files/config/fish/conf.d/alias.fish alias.fish
 
 cd ~/Library/Application Support/Code/User
-ln -s ~/work/dotfiles/vscode/settings.json settings.json
+ln -s ~/work/dot_files/vscode/settings.json settings.json
