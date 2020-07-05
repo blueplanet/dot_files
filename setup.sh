@@ -13,6 +13,8 @@ cd ~/.config
 ln -s ~/work/dotfiles/config/starship.toml starship.toml
 
 # fish
+ln -s ~/work/dotfiles/config/fish/config.fish config.fish
+
 mkdir -p ~/.config/fish/conf.d/
 cd ~/.config/fish/conf.d/
 
