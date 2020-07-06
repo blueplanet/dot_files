@@ -1,7 +1,7 @@
 {
   "editor.tabSize": 2,
   "workbench.activityBar.visible": false,
-  "window.zoomLevel": 3,
+  "window.zoomLevel": 4,
   "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
   // [開いているエディター] ウィンドウに表示されているエディターの数。0 に設定するとウィンドウが非表示になります。
   "explorer.openEditors.visible": 0,
@@ -23,13 +23,14 @@
   "workbench.list.keyboardNavigation": "simple",
   "files.trimTrailingWhitespace": true,
   "todo.statistics.project.text": "([finished]/[all] [percentage]%) [est]",
-  "workbench.colorTheme": "Atom One Dark",
+  "workbench.colorTheme": "Solarized Light",
   "editor.minimap.enabled": false,
   "workbench.colorCustomizations": {},
   "emmet.triggerExpansionOnTab": true,
   "editor.suggest.showSnippets": false,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
-  "markdown-preview-enhanced.mermaidTheme": "forest",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+  "markdown-preview-enhanced.mermaidTheme": "forest",
 }

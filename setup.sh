@@ -21,5 +21,6 @@ cd conf.d
 
 ln -s ~/work/dot_files/config/fish/conf.d/alias.fish alias.fish
 
-cd ~/Library/Application Support/Code/User
+cd ~/Library/Application\ Support/Code/User
 ln -s ~/work/dot_files/vscode/settings.json settings.json
+ln -s ~/work/dot_files/vscode/keybindings.json keybindings.json
