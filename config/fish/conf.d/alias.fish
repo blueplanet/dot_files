@@ -61,9 +61,14 @@ alias m 'tmuxinator'
 
 # docker
 alias dk 'docker'
-alias dm 'docker-machine'
-alias dc 'docker-compose'
+alias dc 'docker compose'
+alias de 'docker compose exec api'
 
 # less
 alias lr 'less -R'
 
+alias es 'expo start'
+
+# k8s
+alias k 'kubectl'
+alias ekst 'set AWS_STS_CREDENTIALS (aws --profile contract-dev sts assume-role --role-arn arn:aws:iam::862696491174:role/infra_management_role --role-session-name linyang@rexceed.co.jp);export AWS_ACCESS_KEY_ID=(echo "$AWS_STS_CREDENTIALS" | jq -r ".Credentials.AccessKeyId");export AWS_SECRET_ACCESS_KEY=(echo "$AWS_STS_CREDENTIALS" | jq -r ".Credentials.SecretAccessKey");export AWS_SESSION_TOKEN=(echo "$AWS_STS_CREDENTIALS" | jq -r ".Credentials.SessionToken")'

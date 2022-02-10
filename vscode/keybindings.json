@@ -1,137 +1,222 @@
 // 既定値を上書きするには、このファイル内にキー バインドを挿入します
 [
-    {
-        "key": "cmd+\\",
-        "command": "workbench.action.toggleSidebarVisibility"
-    },
-    {
-        "key": "cmd+b",
-        "command": "-workbench.action.toggleSidebarVisibility"
-    },
-    {
-        "key": "ctrl+cmd+p",
-        "command": "projectManager.listProjects"
-    },
-    {
-        "key": "alt+cmd+p",
-        "command": "-projectManager.listProjects"
-    },
-    {
-        "key": "cmd+e a",
-        "command": "explorer.newFile"
-    },
-    {
-        "key": "shift+cmd+d",
-        "command": "editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "shift+alt+down",
-        "command": "-editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+e d",
-        "command": "workbench.view.debug"
-    },
-    {
-        "key": "shift+cmd+d",
-        "command": "-workbench.view.debug"
-    },
-    {
-        "key": "ctrl+r m",
-        "command": "rails.switchToModel"
-    },
-    {
-        "key": "ctrl+r c",
-        "command": "rails.switchToController"
-    },
-    {
-        "key": "ctrl+r v",
-        "command": "rails.switchToView"
-    },
-    {
-        "key": "cmd+.",
-        "command": "rails.switchToSpec"
-    },
-    {
-        "key": "ctrl+cmd+w",
-        "command": "-workbench.action.toggleTabsVisibility"
-    },
-    {
-        "key": "cmd+enter",
-        "command": "-renameFile",
-        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
-    },
-    {
-        "key": "enter",
-        "command": "-debug.renameWatchExpression",
-        "when": "watchExpressionsFocused"
-    },
-    {
-        "key": "cmd+r",
-        "command": "renameFile",
-        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
-    },
-    {
-        "key": "enter",
-        "command": "-renameFile",
-        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
-    },
-    {
-        "key": "cmd+e f",
-        "command": "explorer.newFolder"
-    },
-    {
-        "key": "shift+cmd+r",
-        "command": "workbench.action.showAllSymbols",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "cmd+t",
-        "command": "-workbench.action.showAllSymbols"
-    },
-    {
-        "key": "cmd+r",
-        "command": "workbench.action.gotoSymbol",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "shift+cmd+o",
-        "command": "-workbench.action.gotoSymbol"
-    },
-    {
-        "key": "enter",
-        "command": "-renameFile",
-        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
-    },
-    {
-        "key": "cmd+d",
-        "command": "todo.toggleDone",
-        "when": "editorTextFocus && editorLangId == 'todo'"
-    },
-    {
-        "key": "alt+d",
-        "command": "-todo.toggleDone",
-        "when": "editorTextFocus && editorLangId == 'todo'"
-    },
-    {
-        "key": "alt+s",
-        "command": "todo.toggleStart",
-        "when": "editorTextFocus && editorLangId == 'todo'"
-    },
-    {
-        "key": "alt+s",
-        "command": "-todo.toggleStart",
-        "when": "editorTextFocus && editorLangId == 'todo'"
-    },
-    {
-        "key": "cmd+shift+.",
-        "command": "erb.toggleTags",
-        "when": "editorTextFocus && editorLangId == erb"
-    },
-    {
-        "key": "ctrl+r f",
-        "command": "extension.runFileSpecs"
-    },
+  {
+    "key": "cmd+\\",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+cmd+p",
+    "command": "projectManager.listProjects"
+  },
+  {
+    "key": "alt+cmd+p",
+    "command": "-projectManager.listProjects"
+  },
+  {
+    "key": "cmd+e a",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "-workbench.view.debug"
+  },
+  {
+    "key": "ctrl+r m",
+    "command": "rails.switchToModel"
+  },
+  {
+    "key": "ctrl+r c",
+    "command": "rails.switchToController"
+  },
+  {
+    "key": "ctrl+r v",
+    "command": "rails.switchToView"
+  },
+  {
+    "key": "cmd+.",
+    "command": "rails.switchToSpec"
+  },
+  {
+    "key": "ctrl+cmd+w",
+    "command": "-workbench.action.toggleTabsVisibility"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "-renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+  },
+  {
+    "key": "enter",
+    "command": "-debug.renameWatchExpression",
+    "when": "watchExpressionsFocused"
+  },
+  {
+    "key": "cmd+r",
+    "command": "renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+  },
+  {
+    "key": "enter",
+    "command": "-renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+  },
+  {
+    "key": "cmd+e f",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "shift+cmd+r",
+    "command": "workbench.action.showAllSymbols",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+t",
+    "command": "-workbench.action.showAllSymbols"
+  },
+  {
+    "key": "cmd+r",
+    "command": "workbench.action.gotoSymbol",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+o",
+    "command": "-workbench.action.gotoSymbol"
+  },
+  {
+    "key": "enter",
+    "command": "-renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "cmd+d",
+    "command": "todo.toggleDone",
+    "when": "editorTextFocus && editorLangId == 'todo'"
+  },
+  {
+    "key": "alt+d",
+    "command": "-todo.toggleDone",
+    "when": "editorTextFocus && editorLangId == 'todo'"
+  },
+  {
+    "key": "alt+s",
+    "command": "todo.toggleStart",
+    "when": "editorTextFocus && editorLangId == 'todo'"
+  },
+  {
+    "key": "alt+s",
+    "command": "-todo.toggleStart",
+    "when": "editorTextFocus && editorLangId == 'todo'"
+  },
+  {
+    "key": "cmd+shift+.",
+    "command": "erb.toggleTags",
+    "when": "editorTextFocus && editorLangId == erb"
+  },
+  {
+    "key": "ctrl+r f",
+    "command": "extension.runFileSpecs"
+  },
+  {
+    "key": "ctrl+v d",
+    "command": "workbench.view.debug"
+  },
+  {
+    "key": "alt+cmd+down",
+    "command": "-workbench.action.terminal.focusNextPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+t h",
+    "command": "workbench.action.terminal.focusPreviousPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+cmd+up",
+    "command": "-workbench.action.terminal.focusPreviousPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "backspace",
+    "command": "-deleteLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "backspace",
+    "command": "-extension.vim_backspace",
+    "when": "editorTextFocus && vim.active && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "-editor.action.transposeLetters",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+t",
+    "command": "editor.action.transposeLetters",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "backspace",
+    "command": "deleteLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+w shift+'",
+    "command": "workbench.action.splitEditorRight"
+  },
+  {
+    "key": "ctrl+w shift+5",
+    "command": "workbench.action.splitEditorDown"
+  },
+  {
+    "key": "alt+=",
+    "command": "codealignment.alignbyregex"
+  },
+  {
+    "key": "cmd+l",
+    "command": "-expandLineSelection",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+l",
+    "command": "extension.runSpecLine"
+  },
+  {
+    "key": "ctrl+cmd+l",
+    "command": "-extension.runSpecLine"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "-extension.vim_ctrl+t",
+    "when": "editorTextFocus && vim.active && vim.use<C-t> && !inDebugRepl"
+  },
+  {
+    "key": "shift+cmd+.",
+    "command": "-breadcrumbs.focusAndSelect",
+    "when": "breadcrumbsPossible"
+  },
+  {
+    "key": "shift+cmd+.",
+    "command": "-editor.action.inPlaceReplace.down",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+.",
+    "command": "-breadcrumbs.toggleToOn",
+    "when": "!config.breadcrumbs.enabled"
+  }
 ]
