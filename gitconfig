@@ -46,3 +46,5 @@
 [pull]
 	rebase = false
 	ff = only
+[commit]
+	template = /Users/gyo/work/dot_files/gitmessage
