@@ -1,0 +1,1 @@
+/Users/gyo/work/dot_files/config/fish/config.fish
