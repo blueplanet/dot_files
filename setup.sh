@@ -13,14 +13,5 @@ cd ~/.config
 ln -s ~/work/dot_files/config/starship.toml starship.toml
 
 # fish
-cd ~/.config/fish
-ln -s ~/work/dot_files/config/fish/config.fish config.fish
+ln -s ~/work/dot_files/fish
 
-mkdir conf.d
-cd conf.d
-
-ln -s ~/work/dot_files/config/fish/conf.d/alias.fish alias.fish
-
-cd ~/Library/Application\ Support/Code/User
-ln -s ~/work/dot_files/vscode/settings.json settings.json
-ln -s ~/work/dot_files/vscode/keybindings.json keybindings.json
