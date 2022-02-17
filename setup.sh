@@ -1,4 +1,6 @@
 cd ~
+
+ln -s ~/work/dot_files/asdfrc .asdfrc
 ln -s ~/work/dot_files/gemrc .gemrc
 ln -s ~/work/dot_files/gitconfig .gitconfig
 ln -s ~/work/dot_files/gitignore .gitignore
