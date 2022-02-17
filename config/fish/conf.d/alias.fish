@@ -1,4 +1,5 @@
 # base command
+alias a 'asdf'
 alias ls 'exa'
 alias ll 'ls -l'
 alias la 'll -a'
@@ -32,7 +33,6 @@ alias ts 't status'
 
 # editor
 alias e 'code'
-
 alias o 'open'
 
 # ruby / rails
