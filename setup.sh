@@ -10,7 +10,7 @@ ln -s ~/work/dot_files/vimrc .vimrc
 mkdir -p ~/.config
 cd ~/.config
 
-ln -s ~/work/dot_files/config/starship.toml starship.toml
+ln -s ~/work/dot_files/starship.toml
 
 # fish
 ln -s ~/work/dot_files/fish
