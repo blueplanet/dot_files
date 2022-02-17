@@ -1,0 +1,9 @@
+# /Users/gyo/.config/tmuxinator/auc.yml
+
+name: necd
+root: ~/dev/ecd
+
+windows:
+  - shell:
+  - tig: tig
+  - server: yarn dev

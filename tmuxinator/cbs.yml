@@ -1,0 +1,9 @@
+# /Users/gyo/.config/tmuxinator/cbs.yml
+
+name: cbs
+root: ~/work/ChainBowSV
+
+windows:
+  - shell:
+  - tig: tig
+  - server: quasar dev

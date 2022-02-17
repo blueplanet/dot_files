@@ -1,0 +1,9 @@
+# /Users/gyo/.config/tmuxinator/ret.yml
+
+name: bm
+root: ~/work/bm-early-bird-pool-v3
+
+windows:
+  - shell:
+  - tig: tig
+  - serve: yarn dev

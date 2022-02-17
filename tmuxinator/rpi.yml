@@ -1,0 +1,11 @@
+# /Users/gyo/.config/tmuxinator/auc.yml
+
+name: rpi
+root: ~/work/rights/pigeon-analytics-ita_san
+
+windows:
+  - shell:
+  - tig: tig
+  - console: bundle exec rails c
+  - server: bundle exec rails s
+  - logs: tail -f log/development.log

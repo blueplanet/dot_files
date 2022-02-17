@@ -1,0 +1,8 @@
+# /Users/gyo/.config/tmuxinator/auc-lp.yml
+
+name: al
+root: ~/work/auc_amweb_ctob_app_client_lp
+
+windows:
+  - shell:
+  - tig: tig

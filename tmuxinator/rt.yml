@@ -1,0 +1,11 @@
+# /Users/gyo/.config/tmuxinator/auc.yml
+
+name: rt
+root: ~/work/rights/template-rails_6.0
+
+windows:
+  - shell:
+  - tig: tig
+  - console: bundle exec rails c
+  - server: bundle exec rails s
+  - logs: tail -f log/development.log

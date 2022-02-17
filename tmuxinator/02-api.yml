@@ -1,0 +1,11 @@
+# /Users/gyo/.config/tmuxinator/02-api.yml
+
+name: 02-api
+root: ~/work/02-dh-aprex-nft-api
+
+windows:
+  - shell:
+  - tig: tig
+  - console: dc exec api rails c
+  - server: dc up -d
+  - logs: less -r log/development.log

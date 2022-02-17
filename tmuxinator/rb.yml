@@ -1,0 +1,11 @@
+# /Users/gyo/.config/tmuxinator/auc-server.yml
+
+name: rb
+root: ~/dev/rails-bootstrap
+
+windows:
+  - shell:
+  - tig: tig
+  - console: bundle exec rails c
+  - server: bundle exec rails s
+  - logs: tail -f log/development.log

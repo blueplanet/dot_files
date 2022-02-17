@@ -1,0 +1,9 @@
+# /Users/gyo/.config/tmuxinator/auc-server.yml
+
+name: acbo
+root: ~/work/auc_amweb_ctob_app_client_bo
+
+windows:
+  - shell:
+  - tig: tig
+  - server: ng serve

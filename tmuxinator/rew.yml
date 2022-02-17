@@ -1,0 +1,10 @@
+# /Users/gyo/.config/tmuxinator/ret.yml
+
+name: rew
+root: ~/work/rexceed/web
+
+windows:
+  - shell:
+  - tig: tig
+  - server: yarn run serve --mode local --host  lvh.me --port 8083
+  - proxy: npx http-server -p 8082 -a -P https://auth.pre.cios.dev --cors="*"

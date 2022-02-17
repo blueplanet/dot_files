@@ -1,0 +1,9 @@
+# /Users/gyo/.config/tmuxinator/auc.yml
+
+name: ecd
+root: ~/work/estate_cf_demo
+
+windows:
+  - shell:
+  - tig: tig
+  - server: npm run dev

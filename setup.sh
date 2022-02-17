@@ -15,3 +15,5 @@ ln -s ~/work/dot_files/config/starship.toml starship.toml
 # fish
 ln -s ~/work/dot_files/fish
 
+# tmuximator
+ln -s ~/work/dot_files/tmuximator

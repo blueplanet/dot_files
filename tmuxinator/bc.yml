@@ -1,0 +1,9 @@
+# /Users/gyo/.config/tmuxinator/auc-server.yml
+
+name: bc
+root: ~/work/bloem-auction-boot-checker
+
+windows:
+  - shell:
+  - tig: tig
+  - server:

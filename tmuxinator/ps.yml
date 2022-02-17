@@ -1,0 +1,8 @@
+# /Users/gyo/.config/tmuxinator/ps.yml
+
+name: ps
+root: ~/work/point_server
+
+windows:
+  - shell:
+  - tig: tig

@@ -1,0 +1,11 @@
+# /Users/gyo/.config/tmuxinator/auc-server.yml
+
+name: as
+root: ~/work/auc_amweb_ctob_app_server
+
+windows:
+  - shell:
+  - tig: tig
+  - console: bundle exec rails c
+  - server: bundle exec rails s
+  - logs: tail -f log/development.log

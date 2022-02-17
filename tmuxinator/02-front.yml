@@ -1,0 +1,9 @@
+# /Users/gyo/.config/tmuxinator/02-front.yml
+
+name: 02-front
+root: ~/work/02-aprex-nft-front
+
+windows:
+  - shell:
+  - tig: tig
+  - server: yarn dev

@@ -1,0 +1,8 @@
+# /Users/gyo/.config/tmuxinator/mb.yml
+
+name: mb
+root: ~/dev/mini-bus
+
+windows:
+  - shell:
+  - tig: tig

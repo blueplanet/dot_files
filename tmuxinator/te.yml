@@ -1,0 +1,8 @@
+# /Users/gyo/.config/tmuxinator/mb.yml
+
+name: te
+root: ~/dev/team-events
+
+windows:
+  - shell:
+  - tig: tig
